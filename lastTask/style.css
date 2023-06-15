@@ -1,0 +1,238 @@
+*,body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    position: relative;
+    width: calc(100%-200px);
+    height: 100vh;
+    background-color: rgb(190, 248, 248);
+}
+
+.navbar{
+    width: 200px;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.4s ease;
+
+}
+.image{
+    width: 40px;
+    margin-right: 5px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 80%;
+    margin: 10px;
+    font-size: 20px;
+    color: black;
+    /* transition: all 0.4s ease; */
+    
+}
+
+.input{
+    width: 80%;
+    margin-top: 15px;
+    position: relative;
+   
+}
+
+.input input{
+    background-color: antiquewhite;
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 100%;
+    border-radius: 5px;
+    padding-left: 40px;
+}
+
+.dash{
+    width: 80%;
+    height: 30px;
+    margin: 15px;
+    color: black;
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+    cursor: pointer;
+  
+    
+    
+}
+
+.dash .div{
+    margin-left: 13px;
+    opacity: 1;
+    pointer-events: painted;
+    transition: all 1s ease;
+   
+
+   
+}
+/* .icon{
+    margin-right: 15px;
+    font-size: 14px;
+
+    
+   
+} */
+
+.fa-magnifying-glass{
+    position: absolute;
+    top: 7px;
+    left: 10px;
+    color:#5e7681 ;
+}
+
+.toggle{
+    position: absolute;
+    top: 10px;
+    left: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(74, 190, 236);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: white;
+    font-size: 10px;
+    transition: 0.4s ease;
+  
+
+}
+.min .header .logo{
+    min-width:100% ;
+    text-align: center;
+}
+
+.min .header h4{
+    opacity: 0;
+    pointer-events: none;
+}
+
+.toggle:hover{
+    cursor: pointer;
+}
+
+.min{
+    width: 70px;
+    
+
+    
+}
+
+.min .toggle{
+    transform: translateX(-130px);
+}
+
+
+
+.min .dash .icon{
+    min-width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    
+    
+}
+
+.min .icon:hover{
+    border-radius: 10px;
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.min .div{
+    display: none;
+    pointer-events: none;
+    transition: all 0.1s ease;
+    
+   
+    
+}
+
+.min .inp{
+    opacity: 0;
+    pointer-events: none;
+    
+}
+
+.min .input{
+    width: 60%;
+    height: 40px;
+    border-radius: 10px;
+    line-height: 40px;
+    background-color: rgb(231, 230, 231);
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.min .input .fa-magnifying-glass{
+    position:static;
+    
+
+    
+
+}
+
+.mode{
+    margin-top: 200px;
+    background-color: #5e7681;
+    width: 80%;
+    height: 35px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.mode-icon{
+  
+}
+
+.reto{
+    width: 40px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: wheat;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1px;
+    cursor: pointer;
+}
+
+.point{
+    width: 15px;
+    height: 13px;
+    background-color: black;
+    border-radius: 20px;
+    transition: 0.4s ease;
+
+}
+
+.pointe{
+    transform: translateX(20px);
+    
+}
+
+.min .mode-icon{
+    display: none;
+}
+
+.min .mode-text{
+    display: none;
+}

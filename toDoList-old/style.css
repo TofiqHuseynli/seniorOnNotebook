@@ -2,10 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    font-family: 'Pacifico', cursive;
 }
 .body-div{
-    position: relative;
     width: 100%;
     height: 100vh;
     background-color: black;
@@ -51,7 +50,6 @@
     font-size: 24px;
     font-family: 'Times New Roman', Times, serif;
     color: white;
-    pointer-events: none;
     
 }
 
@@ -78,7 +76,6 @@
 
 .task-text{
     color: white;
-    text-align: center;
 }
 
 .task-div{
@@ -86,79 +83,8 @@
 }
 
 .task-content{
- 
+    background-color: rebeccapurple;
     width: 100%;
-    height: 60vh;
-
-    
-    
-}
-
-.tasks-div{
-    width: 100%;
-    height: 140px;
-    border: 3.5px solid rgb(121, 225, 243);
-    border-radius: 10px;
-    margin-bottom: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 5px;
-    
-}
-
-.btns-div{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.task-header-text{
-    color: white;
-    font-size: 26px;
-}
-
-.task-content-text{
-    color: white;
-    font-size: 20px;
-}
-
-.edit-btn,.delete-btn{
-    border: none;
+    height: auto;
     margin: 10px;
-    background-color: transparent;
-    font-size: 20px;
-    transition: 0.2s ease;
-}
-
-.edit-btn{
-    color: green;
-}
-
-.delete-btn{
-    color: red;
-}
-
-.edit-btn:hover,.delete-btn:hover{
-    transform: scale(1.1);
-
-}
-
-.edit-div{
-    width: 700px;
-    height: 35vh;
-    top: 30px;
-    left:31.8%;
-    position: absolute;
-    background-color: blueviolet;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* transition: 0.8s ease; */
-    visibility: hidden;
-    
 }
